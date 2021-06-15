@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { AirPlan } from '../src/model/AirPlan.js';
 
-describe('Vehicle Controller', () => {
+describe('AirPlane Controller', () => {
     it('Call aceleration should return string of status acelerating', () => {
         const airPlan = new AirPlan();
         const result = airPlan.aceleration();

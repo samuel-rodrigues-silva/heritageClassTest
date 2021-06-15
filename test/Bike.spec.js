@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import { Bike } from '../src/model/Bike.js';
 
 
-describe('Vehicle Controller', () => {
+describe('Bike Controller', () => {
     it('Call aceleration should return string of status acelerating', () => {
         const bike = new Bike();
         const result = bike.aceleration();
